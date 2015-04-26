@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Yaroslav Admin <devoto13@gmail.com>
+MAINTAINER Cyprien Pannier <cyprien.pannier@gmail.com>
 
 # Base
 ENV LANG en_US.UTF-8
