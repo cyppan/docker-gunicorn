@@ -26,7 +26,7 @@ CMD ["/usr/local/bin/startup"]
 
 # Install global dependencies
 RUN apt-get install -y python python-dev python-setuptools python-pip
-RUN pip install gunicorn setproctitle
+RUN pip install gunicorn setproctitle gevent eventlet
 
 # Install gunicorn running script
 ADD run /usr/local/bin/run
